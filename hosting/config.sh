@@ -26,3 +26,8 @@ RewriteRule ^/system$ /backend/PHP/index.php [L]
 </Directory>
 
 ErrorDocument 404 /errors/404.html
+
+
+# more step
+sudo chmod -R 755 /var/www/backend/backend/Admin
+sudo chown -R apache:apache /var/www/backend/backend/Admin
